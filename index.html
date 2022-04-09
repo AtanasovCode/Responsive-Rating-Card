@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="script.js"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="rating-container">
+      <div class="rating-box">
+        <div class="icon-container">
+          <div id="icon-star" class="round-bg">
+            <img src="images/icon-star.svg" alt="icon star">
+          </div>
+        </div>
+        <div class="rate-text">
+          <div class="text">
+            <div class="heading">
+              <h2>
+                How did we do?
+              </h2>
+            </div>
+            <div class="sub-text">
+              <span>
+                Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!
+              </span>
+            </div>
+          </div>
+          <div class="selection">
+              <input type="button" value="1" onclick="rating(this)">
+              <input type="button" value="2" onclick="rating(this)">
+              <input type="button" value="3" onclick="rating(this)">
+              <input type="button" value="4" onclick="rating(this)">
+              <input type="button" value="5" onclick="rating(this)">
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" id="submit-btn" class="btn-submit">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  -->
+  </div>
+</body>
+</html>
