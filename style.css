@@ -139,8 +139,8 @@ main {
 /*====================THANK YOU CONTAINER==================*/
 
 .ty-container {
-    padding: 2vw;
-    width: 25vw;
+    padding: 25px;
+    width: 400px;
     height: 50vh;
     background-color: #1e252f;
     color: white;
@@ -175,7 +175,8 @@ main {
 /*======RESPONSIVE=======*/
 
 @media only screen and (max-width: 410px) {
-    .rating-container {
+    .rating-container,
+    .ty-container {
         width: 350px;
         height: 50vh;
     }
